@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    background-color: #F3D7B7;
+}
+.container{
+    margin: 0 auto;
+    padding: 0 50px;
+}
+.header{
+    width: 1440px;
+    background-color: #F3D7B7   ;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 22px 0;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.header-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.header-content_text{
+    width: 464px;
+}
+.header-content_text h1{
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    letter-spacing: 0px;    
+}
+.header-content_text p{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    margin: 47px 0;
+}
+.header-content_text button{
+    width: 193px;
+    height: 51px;
+    border-radius: 100px;     
+    background-color: #0A775F;
+    color: white;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.75px;
+    letter-spacing: 1px;
+    text-align: center;    
+}
+.header-content_img{
+    position: relative;/
+
+}
+.header-content_img-coffee{
+    transform: translate(50px, 70px);
+}
+.header-logo{
+    position: absolute;
+    z-index: 1;
+    left: -20px;
+}
+.our{
+    margin: 100px 543px 42px 543px;
+}
+.our h1{
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 58.59px;
+    letter-spacing: 0px;
+    text-align: center;    
+}
+.your{
+    width: 1117.094482421875px;
+    height: 1500px;
+    flex-wrap: wrap;
+    display: flex;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.card:hover{
+    transform: scale(0.5);
+    transition: 3s;
+}
+.card img{
+    width: 300px;
+    height: 300px;
+}
+
+.card h1{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56.25px;
+    letter-spacing: 0px;
+}
+.section{
+    background-color: aliceblue;
+}
+.p{
+    display: flex;
+}
+.joja{
+    /* margin: 62px ; */
+}
+.pered-posledniy{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer{
+    padding: 62px 0px 0px 42px ;
+    width: 1440px;
+    height: 160px; 
+    background-color: #F3D7B7;
+}
+.footer ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
